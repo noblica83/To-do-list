@@ -1,0 +1,99 @@
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+html,body{
+    height: 100px;
+    overflow: auto;
+    background-color:  rgb(247, 229, 206) ;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(174, 119, 47);
+    font-size: xx-large;
+    padding-top: 20px;
+}
+
+    
+
+.container {
+    background-color: rgb(251, 238, 181);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+    top: 30%;
+    left: 50%;
+    border-radius: 7px;
+    padding-top: 40px;
+    box-shadow:15px 20px 85px rgb(78, 52, 19);
+
+}
+.form-control {
+    display: flex;
+    align-items: flex-start;
+}
+.btn{
+    
+    position: relative;
+    float: right;
+    cursor: pointer;
+    top: 50%;
+    width: 20%;
+    height: 45px;
+
+}
+#tasks{
+    
+    padding: 30px 20px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+.task{
+    background-color:rgba(255, 251, 247, 0.761);
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid  rgba(225, 194, 155, 0.843);
+    cursor: pointer;
+}
+#newtask{
+    display: flex;
+    position: relative;
+    padding: 30px 20px;
+    gap: 15px;  
+    color: #000;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+.glyphicon{
+    color: rgb(95, 9, 9);
+}
+
